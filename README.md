@@ -1,1 +1,21 @@
-# PR.-4-Circlet
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int i,j,n=5;
+    for(i=41;i<=45;i++) {
+        for(j=41;j<=i;j++) {
+            printf("%d ",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+/*
+41 
+41 42 
+41 42 43 
+41 42 43 44 
+41 42 43 44 45
+*/
